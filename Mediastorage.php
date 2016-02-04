@@ -147,7 +147,7 @@ class Mediastorage extends \Magento\Framework\Data\Form\Element\Textarea
             $buttonsHtml .= $this->_getButtonHtml(
                 [
                     'title' => $this->translate('Delete Image...'),
-                        'onclick' => "if (confirm('Are you sûre?')){
+                        'onclick' => "if (confirm('".$this->translate('Are you sûre ?')."')){
                             document.getElementById('".$htmlId."').value = '';
                         }",
                         'class' => 'action-add-image plugin',
