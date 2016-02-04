@@ -5,6 +5,7 @@
 This code can really be improve, I know, that's juste a first try.
 
 This field type provide à media explorer alone, without wysiwyg. This is quite a replacement for 'image' field. 
+
 1 Button "add image" to show Magento 2 admin media explorer.
 
 1 Button "delete image" for non required field (like checkbox on file / image field)
